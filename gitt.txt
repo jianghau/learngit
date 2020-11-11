@@ -3,14 +3,16 @@ git 命令行：
    mkdir learngit
    cd learneit
    pwd
-   git init     (创建git版本库)
+   git init                 (创建git版本库)
 
+2，git add tex.txt         （ git上传提交tex.txt文件。）
 
+3,git commit -m "介筛"     （告诉Git  ,  把文件提交到仓库）
 
-2 git status             (查看gi修改的文件，但是还没有提交)
+4, git status               (查看gi修改的文件，但是还没有提交)
 
-3，git diff tex.txt             (查看具体修改的文件)
+5，git diff                 (查看具体修改的文件)
 
-4，git add tex.txt      （ git上传提交tex.txt文件。）
+6,git log   （命令显示从最近到最远的提交日志 后面加 --pretty=oneline 是简洁版  前面的id是git生成的）
 
-5,git commit -m "介筛"    （告诉Git  ,  把文件提交到仓库）
+7
