@@ -5,9 +5,9 @@ git 命令行：
    pwd
    git init                 (创建git版本库)
 
-2，git add tex.txt         （ git上传提交tex.txt文件。）
+2，git add tex.txt         （ git上传提交tex.txt文件。 git add -A 上传所有的文件）
 
-3,git commit -m "介筛"     （告诉Git  ,  把文件提交到仓库）
+3,git commit -m "介绍的上传的内容"     （告诉Git  ,  把文件提交到仓库）
 
 4, git status               (查看gi修改的文件，但是还没有提交)
 
@@ -29,3 +29,10 @@ git 命令行：
  
  
  9,   git clone https://github.com/jianghau/learneit.git           本地克隆线上的项目  
+ 
+ 
+ cat  文件名称                 （查看文件信息）
+ git rm 文件夹名称 -r -f       (删除文件夹下面的所有的文件 )
+ rm     文件夹名称 -r -f       (你通常直接在文件管理器中把没用的文件删了，或者用rm命令删了 )   
+ 
+ git pull                       （GitHub下拉代码）         
