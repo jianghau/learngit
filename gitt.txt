@@ -5,8 +5,12 @@ git 命令行：
    pwd
    git init     (创建git版本库)
 
-2，git add tex.txt      （ get上传提交tex.txt文件。）
 
-3 git status             (查看gi修改的文件，但是还没有提交)
 
-4，git diff              (查看具体修改的文件)
+2 git status             (查看gi修改的文件，但是还没有提交)
+
+3，git diff tex.txt             (查看具体修改的文件)
+
+4，git add tex.txt      （ git上传提交tex.txt文件。）
+
+5,git commit -m "介筛"    （告诉Git  ,  把文件提交到仓库）
