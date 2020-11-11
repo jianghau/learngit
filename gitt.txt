@@ -1,0 +1,12 @@
+git 命令行：
+1，
+   mkdir learngit
+   cd learneit
+   pwd
+   git init     (创建git版本库)
+
+2，git add tex.txt      （ get上传提交tex.txt文件。）
+
+3 git status             (查看gi修改的文件，但是还没有提交)
+
+4，git diff              (查看具体修改的文件)
