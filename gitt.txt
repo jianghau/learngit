@@ -38,8 +38,18 @@ git 命令行：
  git rm 文件夹名称 -r -f       (删除文件夹下面的所有的文件 )
  rm     文件夹名称 -r -f       (你通常直接在文件管理器中把没用的文件删了，或者用rm命令删了 )   
  
-分支
-git checkout -b dev                 （创建dev分支并切换到Dev分支上来 相当于执行了 git brabch dev git checkout dev）
-git branch                         (查看当前的分支)
 
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>或者git switch <name>
+
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
         
